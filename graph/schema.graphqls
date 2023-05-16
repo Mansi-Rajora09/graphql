@@ -1,0 +1,52 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+type Todo {
+  id: ID!
+  text: String!
+  done: Boolean!
+  user: User!
+}
+
+"contain user info"
+type User {
+  id: ID!
+  name: String!
+}
+type UserInfo {
+    id: Int!
+    name: String!
+    status: String!
+    deleted_at: String!
+    created_at: String!
+    updated_at: String!
+}
+
+input UserInput {
+    userRole: String!
+}
+
+type Query {
+  todos: [Todo!]!
+  "Search the User based on the given input and returns the user details. Ensures that the right persmission are checked before returning a user"
+  getUser(input: UserInput!): UserInfo
+
+}
+
+input NewTodo {
+  text: String!
+  userId: String!
+}
+
+type Mutation {
+  createTodo(input: NewTodo!): Todo!
+}
+
+"Provides information on the state of User"
+enum UserStatus {
+    INVALID
+    NEW_USER
+}
+
+
