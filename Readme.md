@@ -118,5 +118,9 @@ There isn't any way around this, gqlgen has no way to know what you want in a gi
 
 ### Screenshot for Reference
 
+<img width="1790" alt="Screenshot 2023-05-16 at 5 27 17 PM" src="https://github.com/Mansi-Rajora09/graphql/assets/41550139/c6100718-3d73-4876-90fd-df1c9bb098e1">
 
 
+<img width="1093" alt="Screenshot 2023-05-16 at 5 27 33 PM" src="https://github.com/Mansi-Rajora09/graphql/assets/41550139/fa8a56a0-8fbb-476e-9cba-ae39c5bdbd85">
+
+<img width="1716" alt="Screenshot 2023-05-16 at 5 27 51 PM" src="https://github.com/Mansi-Rajora09/graphql/assets/41550139/197933da-2bd5-43b8-b49c-66cd48fb14c8">
